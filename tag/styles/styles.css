@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dongle&family=Edu+TAS+Beginner&family=IM+Fell+English&family=Kadwa&family=Neuton&family=Noto+Sans+Linear+B&family=Noto+Serif&family=PT+Sans+Narrow&display=swap');
+
+.titulo1{
+    background-color: lightgreen;
+    font-size: 2rem;
+    color: purple;
+    justify-content: center;
+    font-family: cursive;
+}
+.titulo2{
+font-family: 'Times New Roman', Times, serif;
+}
+.titulo3{
+font-family: cursive;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+}
+body{
+    background-color: #52ACFF;
+ background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+ display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.table{
+     border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+background-color: red;
+color:white
+}
+.table td:hover{
+background-color: lightcoral;
+color:white
+}
+.table th:hover{
+background-color: lightgreen;
+color: white;
+}
+.td{
+font-weight: bold;
+}
+.caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
